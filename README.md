@@ -1,6 +1,6 @@
 ### 2. Just Deploy this on Heroku
 
-(https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)]
 
 - Input `Channel Secret` and `Channel Access Token`.
 - Remember your heroku, ID.
