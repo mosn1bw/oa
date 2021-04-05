@@ -1,6 +1,24 @@
 {
-  "name": "Line_Bot_Shalat",
-  "description": "Jadwal Shalat Untuk Bot Line",
-  "repository": "https://github.com/zFz0000/Line_Bot_Shalat",
-  "keywords": ["line bot", "messaging api"]
+  "name": "LineBotTemplate",
+  "description": "Line Bot API template",
+  "repository": "https://github.com/kkdai/LineBotTemplate",
+  "keywords": ["Line", "go", "static"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/kr/heroku-buildpack-go.git"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ],
+  "env": {
+    "ChannelAccessToken": {
+      "description": "Channel Access Token",
+      "required": true
+    },
+    "ChannelSecret": {
+      "description": "Channel Secret",
+      "required": true
+    }
+  }
 }
