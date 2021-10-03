@@ -1,24 +1,6 @@
 {
-  "name": "LineBotoa",
-  "description": "Line Bot oa",
-  "repository": "https://github.com/mosn1bw/oa",
-  "keywords": ["Line", "php", "static"],
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-php"
-    },
-    {
-      "url": "heroku/php"
-    }
-  ],
-  "env": {
-    "ChannelAccessToken": {
-      "description": "Channel Access Token",
-      "required": true
-    },
-    "ChannelSecret": {
-      "description": "Channel Secret",
-      "required": true
-    }
-  }
+  "name": "Line_Bot_Shalat",
+  "description": "Jadwal Shalat Untuk Bot Line",
+  "repository": "https://github.com/zFz0000/Line_Bot_Shalat",
+  "keywords": ["line bot", "messaging api"]
 }
